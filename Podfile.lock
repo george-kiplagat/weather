@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.4.3)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - Result (3.2.4)
+  - SugarRecord/CoreData (3.1.2):
+    - Result (~> 3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - SugarRecord/CoreData
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - Result
+    - SugarRecord
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SugarRecord: be6aa5c18b4a4dec0de4c1f49fc61c85eabb5328
+
+PODFILE CHECKSUM: cfc9ea26e3edb7fd89fce55e63e2d0a55fa31b92
+
+COCOAPODS: 1.8.4
